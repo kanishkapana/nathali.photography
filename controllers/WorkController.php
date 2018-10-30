@@ -66,6 +66,6 @@ class WorkController extends Controller
 
     public function actionView($id)
     {
-        return $this->render('/work/view',['$id' => $id]);
+        return $this->render('/work/view',['id' => $id]);
     }
 }

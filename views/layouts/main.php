@@ -34,7 +34,9 @@ AppAsset::register($this);
     <div class="panel-heading">
         <nav class="main-navigation">
             <div class="navbar-header animated fadeInUp">
-                <a class="navbar-brand" href="#">Logo Area</a>
+                <a class="navbar-brand" href="#">
+<!--                    <img src="/assets/img/site-logo.jpg">-->
+                </a>
             </div>
             <ul class="nav-list">
                 <li class="nav-list-item">

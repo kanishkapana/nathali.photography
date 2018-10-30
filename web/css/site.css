@@ -1,6 +1,11 @@
 html,
 body {
     height: 100%;
+    overflow: auto !important;
+}
+
+footer{
+    /*position:static;*/
 }
 
 .wrap {
