@@ -29,7 +29,7 @@
         <div class="col-md-4">
             <div class="work-item-img">
                 <img id="work-1" href="work/view/3"
-                     src="https://scontent.fadl2-1.fna.fbcdn.net/v/t1.0-9/35888632_2172766899673847_4551038503227490304_o.jpg?_nc_cat=101&_nc_ht=scontent.fadl2-1.fna&oh=2ca742c8dc854345b7922e0e11f4d554&oe=5C45806A"
+                     src="https://scontent.fadl2-1.fna.fbcdn.net/v/t1.0-9/35687108_2172766423007228_8045000673470709760_o.jpg?_nc_cat=101&_nc_ht=scontent.fadl2-1.fna&oh=fccf2dc2db1b107465da068a3e99f966&oe=5C3C7121"
                      alt="">
             </div>
         </div>
