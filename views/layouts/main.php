@@ -31,11 +31,11 @@ AppAsset::register($this);
 <?php $this->beginBody() ?>
 
 <div class="panel panel-default">
-    <div class="panel-heading">
+    <div class="panel-heading main-panel">
         <nav class="main-navigation">
             <div class="navbar-header animated fadeInUp">
-                <a class="navbar-brand" href="#">
-<!--                    <img src="/assets/img/site-logo.jpg">-->
+                <a class="navbar-brand" href="#" style="margin-top:-80px;">
+                    <img src="/assets/img/site-logo.png" width="500px;">
                 </a>
             </div>
             <ul class="nav-list">

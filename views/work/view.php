@@ -749,16 +749,26 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <img id="image-gallery-image" class="img-responsive col-md-12" src="">
+                    <div class="row">
+                        <img id="image-gallery-image" class="img-responsive col-md-12" src="">
+                    </div>
+                    <div class="row" style="margin-top:15px;">
+                        <div class="col-md-6">
+                            <span id="show-previous-image" style="font-size: 35px; color: gray;" class="glyphicon glyphicon-triangle-left pull-right"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <span id="show-next-image" style="font-size: 35px; color: gray;" class="glyphicon glyphicon-triangle-right"></span>
+                        </div>
+<!--                        <button type="button" class="btn btn-secondary float-left" id="show-previous-image"><i-->
+<!--                                    class="fa fa-arrow-left"></i>-->
+<!--                        </button>-->
+<!---->
+<!--                        <button type="button" id="show-next-image" class="btn btn-secondary float-right"><i-->
+<!--                                    class="fa fa-arrow-right"></i>-->
+<!--                        </button>-->
+                    </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary float-left" id="show-previous-image"><i
-                                class="fa fa-arrow-left"></i>
-                    </button>
-
-                    <button type="button" id="show-next-image" class="btn btn-secondary float-right"><i
-                                class="fa fa-arrow-right"></i>
-                    </button>
                 </div>
             </div>
         </div>
