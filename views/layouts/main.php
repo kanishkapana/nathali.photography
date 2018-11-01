@@ -36,7 +36,7 @@ AppAsset::register($this);
         <nav class="main-navigation">
             <div class="navbar-header animated fadeInUp">
                 <a class="navbar-brand" href="#" style="margin-top: -50px;margin-left: -20px;">
-                    <img src="/assets/img/site-logo-2.png" width=290px;">
+                    <img src="/img/site-logo-2.png" width=290px;">
                 </a>
             </div>
             <ul class="nav-list">
