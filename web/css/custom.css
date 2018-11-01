@@ -1,0 +1,260 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    height: 100%;
+}
+
+a.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    text-decoration: none;
+    color: orangered;
+    font-family: cursive;
+    font-weight: 700;
+
+}
+
+nav.main-navigation {
+    position: relative;
+}
+
+nav.main-navigation ul.nav-list {
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    position: relative;
+    text-align: right;
+}
+
+.nav-list li.nav-list-item {
+    display: inline-block;
+    line-height: 40px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+a.nav-link {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    color: #404040;
+}
+
+@keyframes FadeIn {
+    0% {
+        opacity: 0;
+        -webkit-transition-duration: 0.8s;
+        transition-duration: 0.8s;
+        -webkit-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+        pointer-events: auto;
+        transition: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+
+.nav-list li {
+    animation: FadeIn 1s cubic-bezier(0.65, 0.05, 0.36, 1);
+    animation-fill-mode: both;
+}
+
+.nav-list li:nth-child(1) {
+    animation-delay: .3s;
+}
+
+.nav-list li:nth-child(2) {
+    animation-delay: .6s;
+}
+
+.nav-list li:nth-child(3) {
+    animation-delay: .9s;
+}
+
+.nav-list li:nth-child(4) {
+    animation-delay: 1.2s;
+}
+
+.nav-list li:nth-child(5) {
+    animation-delay: 1.5s;
+}
+
+/* Animation */
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0, 40px, 0)
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0, 40px, 0)
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+
+.item > img {
+    width: 100%;
+    /*height: auto;*/
+    /*height: 100px;*/
+    position: absolute;
+    bottom: -190px !important;
+}
+
+.item {
+    height: 85vh;
+    position: relative;
+}
+
+.panel-heading {
+    height: 100px !important;
+}
+
+.recent-projects-title {
+    background: rgba(236, 240, 241, 1);
+    color: #333;
+    text-transform: uppercase;
+    padding: 40px 0px;
+    text-align: center;
+    font-size: 62px;
+    font-family: 'News Cycle', sans-serif;
+    word-spacing: 17px;
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+
+.work-item-img {
+    /*background-color: rgba(236, 240, 241, 1);*/
+    text-align: center;
+}
+
+.work-item-img > a {
+    display: inline-block;
+}
+
+.work-item-img > img {
+    padding-top: 20px;
+    width: 100%;
+    display: block;
+}
+
+.work-item-img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.panel-body-div {
+    height: 85vh;
+}
+
+.btn:focus, .btn:active, button:focus, button:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+#image-gallery .modal-footer {
+    display: block;
+}
+
+#image-gallery .modal-content {
+    width: 130% !important;
+    margin: 0px auto !important;
+}
+
+#image-gallery .modal-dialog {
+    margin: 20px 20%;
+}
+
+.thumb {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.work-view-div {
+    width: 90%;
+    margin: 0 auto;
+    height: 85vh;
+}
+
+#contact .card:hover i, #contact .card:hover h4 {
+    color: #87d37c;
+}
+
+.about-img {
+    display: block;
+    width: 60%;
+    margin: 100px auto;
+}
+
+.about-div {
+    margin-top: 150px;
+    padding-right: 200px;
+}
+
+.main-panel {
+    background-color: #ffffff !important;
+}
+
+.nav-link {
+    font-size: 24px !important;
+    font-family: 'Crimson Text', Georgia, Times, serif !important;
+    /*font-family: 'Josefin Sans', Helvetica, Arial, sans-serif !important;*/
+}
+
+.site-panel-body {
+    /*background-color: rgba(255, 255, 241, 1) !important;*/
+}
+
+#myCarousel {
+    width: 100%;
+    margin: 0px auto;
+}
+
+#show-previous-image:hover, #show-next-image:hover {
+    cursor: pointer;
+}
+
