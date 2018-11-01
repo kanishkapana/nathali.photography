@@ -25,6 +25,7 @@ AppAsset::register($this);
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
 
@@ -34,8 +35,8 @@ AppAsset::register($this);
     <div class="panel-heading main-panel">
         <nav class="main-navigation">
             <div class="navbar-header animated fadeInUp">
-                <a class="navbar-brand" href="#" style="margin-top:-80px;">
-                    <img src="/assets/img/site-logo.png" width="500px;">
+                <a class="navbar-brand" href="#" style="margin-top: -50px;margin-left: -20px;">
+                    <img src="/assets/img/site-logo-2.png" width=290px;">
                 </a>
             </div>
             <ul class="nav-list">

@@ -8,6 +8,7 @@
             <li data-target="#myCarousel" data-slide-to="3"></li>
             <li data-target="#myCarousel" data-slide-to="4"></li>
             <li data-target="#myCarousel" data-slide-to="5"></li>
+            <li data-target="#myCarousel" data-slide-to="6"></li>
         </ol>
 
         <!-- Wrapper for slides -->
@@ -33,7 +34,11 @@
                      alt="">
             </div>
             <div class="item">
-                <img src="https://scontent.fadl2-1.fna.fbcdn.net/v/t1.0-9/44477645_2281088508841685_1331833134735425536_o.jpg?_nc_cat=102&_nc_ht=scontent.fadl2-1.fna&oh=94cb73672f49a1c9e8d61f33be7e75e3&oe=5C7A445E"
+                <img src="https://scontent.fadl2-1.fna.fbcdn.net/v/t1.0-9/44517075_2281091962174673_8654497536825884672_o.jpg?_nc_cat=109&_nc_ht=scontent.fadl2-1.fna&oh=43dc144a1024bda4ec2e6074743c9dc4&oe=5C7A4D99"
+                     alt="">
+            </div>
+            <div class="item">
+                <img src="https://scontent.fadl2-1.fna.fbcdn.net/v/t1.0-9/43415388_2273623579588178_8633525641016246272_o.jpg?_nc_cat=111&_nc_ht=scontent.fadl2-1.fna&oh=7cf7f8297893ecd79c8d9a50db9292fb&oe=5C77C3F2"
                      alt="">
             </div>
         </div>
