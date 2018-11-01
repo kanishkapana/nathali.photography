@@ -44,5 +44,3 @@
         </div>
     </section>
 </div>
-<div class="panel-footer">
-</div
